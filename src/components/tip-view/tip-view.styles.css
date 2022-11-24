@@ -1,0 +1,46 @@
+.result-container {
+  width: 50%;
+  padding: 30px 40px;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.result-title {
+  color: hsl(0, 0%, 100%);
+}
+
+.result-title span {
+  display: block;
+  color: hsl(186, 14%, 43%);
+}
+
+.result-amount {
+  color: hsl(172, 67%, 45%);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.reset-button {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  font-size: 1.7rem;
+  font-weight: 700;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  .result-container {
+    width: 100%;
+  }
+}

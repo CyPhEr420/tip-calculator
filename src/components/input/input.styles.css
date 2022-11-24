@@ -1,0 +1,36 @@
+.input-container {
+  width: 90%;
+}
+
+.input-label {
+  color: hsl(186, 14%, 43%);
+  font-weight: 700;
+}
+
+.input-wrapper {
+  display: flex;
+  background-color: hsl(189, 41%, 97%);
+  border-radius: 6px;
+}
+
+.symbol {
+  padding: 10px;
+}
+
+.input-field {
+  border: none;
+  background-color: transparent;
+  text-align: right;
+  width: 90%;
+  font-size: 1.7rem;
+  color: hsl(183, 100%, 15%);
+  font-weight: 600;
+  font-family: "Space Mono", monospace;
+}
+.input-field::placeholder {
+  opacity: 0.7;
+}
+
+.input-field:focus {
+  outline: none;
+}

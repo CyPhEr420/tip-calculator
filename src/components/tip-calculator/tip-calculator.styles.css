@@ -1,0 +1,24 @@
+.calculator-container {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 950px;
+
+  display: flex;
+}
+
+.calculating-container {
+  width: 50%;
+}
+
+@media (max-width: 400px) {
+  .calculator-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .calculating-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
